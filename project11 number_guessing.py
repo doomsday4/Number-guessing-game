@@ -16,7 +16,7 @@ while attempts > 0:
   guess = int(input("Make a guess: "))
   attempts -= 1
   if guess == number:
-    print("You Won!")
+    print(f"You Won! And you have {attempts} attempts remaining.")
     break
   elif guess > number:
     print("Too High")
